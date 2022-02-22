@@ -1,24 +1,31 @@
-# README
+# Finance tracking application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## This app is created for learning and training purposes
 
-Things you may want to cover:
+## used technologies:
 
-* Ruby version
+- Ruby v 3.1.0
+- Ruby on rails v 6.1.4.1
+- Bootstrap as CSS framework
 
-* System dependencies
+## To run this app locally:
 
-* Configuration
+```
+git clone https://github.com/NDragneelL9/finance-tracker.git
+```
 
-* Database creation
+```
+bundle install
+```
 
-* Database initialization
+```
+rails webpacker:install
+```
 
-* How to run the test suite
+```
+rails db:setup
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+rails server
+```
